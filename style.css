@@ -1,0 +1,7 @@
+/* GENERAL */
+/* removes any existing padding or margin that were already there */
+/* the star/asterik = global selector */
+* {
+    margin:0; 
+    padding:0;
+}
