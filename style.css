@@ -30,6 +30,20 @@ transition: all 300ms ease;
 
 /* DESKTOP NAV */
 
+#desktop-nav, #hamburger-nav {
+  position: fixed;   /* Fixes the navbar to the top of the page */
+  top: 0;            /* Aligns it to the top of the page */
+  left: 0;           /* Aligns it to the left side of the page */
+  width: 100%;       /* Makes the navbar span the full width of the page */
+  z-index: 1000;     /* Ensures it stays on top of other elements */
+  background-color: #fff; /* Optional: Set a background color for better visibility */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visibility */
+}
+
+body {
+  padding-top: 60px; /* Adjust this value to prevent content from being hidden under the navbar */
+}
+
 nav,
 .nav-links {
 display: flex;
